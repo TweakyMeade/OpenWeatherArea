@@ -1,18 +1,16 @@
-import dotenv, paho.mqtt.client as mqtt, os,json, requests 
+import paho.mqtt.client as mqtt, json, requests 
 
 
 def portAndKeys():
     global mqttHost
     global mqttPort
-    global mqttTopic
     global OWMKey
+    with open("appconfig.json") as keyring:
+        keyring = json.load(keyring)
+        mqttHost = keyring["host"]
+        mqttPort = keyring["port"]
+        OWMKey = keyring["key"]
 
-    dotenv.load_dotenv()
-
-    mqttHost = os.environ.get("Host")
-    mqttPort = int(os.environ.get("Port"))
-    OWMKey = os.environ.get("OWMkey")
-    mqttTopic = 'area'
 
 def weatherRequest(key,location):
     return requests.get(f"https://api.openweathermap.org/data/2.5/weather?appid={key}&id={location}").json()
@@ -39,19 +37,19 @@ def weatherPayload(weather):
     cityR = stringJSONValue(weather["name"])
     return '{'+f"\"Dateime\":{datetimeR},\"Temperature\":{tempR},\"Humidity\":{humidR},\"WindSpeed\":{windSpeedR},\"WindDirection\":{windDirR},\"Sky\":{skyR},\"Sky Detailed\":{skydescR}, \"Pressure\":{pressureR},\"Tempature feels like\":{feelsLike},\"Location\":{cityR}"+'}'
    
-def locationArray():
+def locationPush(key):
     with open("location.csv") as loc:
        lArray = []
        for id in loc.read().split(','):
             lArray.append(int(id))
-    return lArray
+    
+    for l in lArray:
+        mqttPusher(mqttHost, mqttPort, 'area', weatherPayload(weatherRequest(key,l)))
 
-
-locationID = locationArray()
-
+def PrintJSONtoDict(wJSON):
+    for a in wJSON:
+        print(f"{a}:{wJSON[a]}")
 
 portAndKeys()
-for l in locationID:
-    weatherAPIReading = weatherRequest(OWMKey,l)
-    ##print(weatherPayload(weatherAPIReading))
-    mqttPusher(mqttHost, mqttPort, 'area', weatherPayload(weatherAPIReading))
+
+PrintJSONtoDict(weatherRequest(OWMKey,3333220))
