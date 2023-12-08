@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpConsole", "csharp\csharpConsole.csproj", "{0BC6B0C5-CA83-4195-A6CB-A944FFD79DFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{FFEF5758-4573-419E-8DCC-C0BDA8DCE32A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC6B0C5-CA83-4195-A6CB-A944FFD79DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC6B0C5-CA83-4195-A6CB-A944FFD79DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC6B0C5-CA83-4195-A6CB-A944FFD79DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC6B0C5-CA83-4195-A6CB-A944FFD79DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {887AA1E4-1B1A-4D63-B9E8-A6E00C71CAB0}
+	EndGlobalSection
+EndGlobal

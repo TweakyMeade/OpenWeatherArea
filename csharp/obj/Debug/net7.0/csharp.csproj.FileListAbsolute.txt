@@ -1,0 +1,15 @@
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/bin/Debug/net7.0/csharp
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/bin/Debug/net7.0/csharp.deps.json
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/bin/Debug/net7.0/csharp.runtimeconfig.json
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/bin/Debug/net7.0/csharp.dll
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/bin/Debug/net7.0/csharp.pdb
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.csproj.AssemblyReference.cache
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.AssemblyInfoInputs.cache
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.AssemblyInfo.cs
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.csproj.CoreCompileInputs.cache
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.dll
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/refint/csharp.dll
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.pdb
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/csharp.genruntimeconfig.cache
+/Users/antnymeade/Documents/OpenWeatherArea/csharp/obj/Debug/net7.0/ref/csharp.dll
