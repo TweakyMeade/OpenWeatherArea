@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "2vtybEHJlULHT67h5lGPS30FYzPxTTa8LMi5Gju8kX3rEFUhYL/ba7RHbc4NuxfROpWUoFD9+JBVXG282fvrcQ==",
+  "dgSpecHash": "lo5dPxOms1PHcoaaHw8UBzyOTp8XDmqCwAfMflAvhxV5X6uN1sn/0NR9vlkOYZyIsC/RdczdN4+qr6F3vhI1ow==",
   "success": true,
   "projectFilePath": "/Users/antnymeade/Documents/OpenWeatherArea/csharp/csharpConsole.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.0/microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.configuration.json/8.0.0/microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/system.configuration.configurationmanager/8.0.0/system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/system.security.cryptography.protecteddata/8.0.0/system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
