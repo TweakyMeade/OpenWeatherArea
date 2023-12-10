@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lo5dPxOms1PHcoaaHw8UBzyOTp8XDmqCwAfMflAvhxV5X6uN1sn/0NR9vlkOYZyIsC/RdczdN4+qr6F3vhI1ow==",
+  "dgSpecHash": "Alr6B5/5Bd4kbhocRFeeEdy5UWQzEWeuPv24NW92kzLFif5QNW0u4LtDLB76yDysbSlBiCjD250Q/wGnKmqaBg==",
   "success": true,
   "projectFilePath": "/Users/antnymeade/Documents/OpenWeatherArea/csharp/csharpConsole.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/Users/antnymeade/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "/Users/antnymeade/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "/Users/antnymeade/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/antnymeade/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/antnymeade/.nuget/packages/system.configuration.configurationmanager/8.0.0/system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "/Users/antnymeade/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "/Users/antnymeade/.nuget/packages/system.security.cryptography.protecteddata/8.0.0/system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
